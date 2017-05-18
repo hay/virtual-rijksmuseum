@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#iewarning {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: white;
+    text-align: center;
+    font-size: 24px;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+    #iewarning p {
+        padding: 20px;
+    }
+
+    html.ielt9 #iewarning {
+        display: block;
+    }
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.9);
+    top: 0;
+    margin-bottom: 100px;
+    color: #666;
+    padding: 10px;
+    z-index: 1;
+}
+
+    header aside {
+        float: right;
+    }
+
+    header h1 {
+        font-size: 36px;
+        letter-spacing: 0.5px;
+    }
+
+    header h2 {
+        font-size: 14px;
+        font-weight: normal;
+    }
+
+    header hgroup {
+        float: left;
+    }
+
+    header aside {
+        float: right;
+    }
+
+#canvas {
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+    #canvas .loading {
+        font-size: 72px;
+        text-align: center;
+        color: #666;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+
+.painting {
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    text-align: center;
+    overflow: hidden;
+    background: white;
+    text-decoration: none;
+    background-position: center center;
+    background-size: cover;
+}
+
+    .painting p {
+        font-size: 12px;
+        display: inline;
+        color: #666;
+        background: rgba(255, 255, 255, 0.9);
+    }
+
+    .painting:hover {
+        color: black;
+        cursor: pointer;
+        -moz-transform: scale(1.2, 1.2);
+        text-indent: -9999px;
+    }
+
+    .painting img {
+        max-width: 90%;
+        max-height: 90%;
+    }
